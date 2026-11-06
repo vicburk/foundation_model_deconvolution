@@ -6,7 +6,6 @@ import requests
 import itertools
 import scanpy as sc
 import math
-from geneformer import TranscriptomeTokenizer, EmbExtractor
 import mygene
 
 def download_file(article_id, file_id, folder="downloads"):
